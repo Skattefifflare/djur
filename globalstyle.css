@@ -1,0 +1,40 @@
+
+
+@import url("https://fontlibrary.org//face/rubik");
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-image: url(assets/mountain2.jpg); 
+    background-size: cover cover;
+    background-position: center center;
+}
+
+input {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    color: crimson;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 0px 0px 10px 0px;
+    border-color: black;
+    filter: drop-shadow(-3px 0px 0px black);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 2.4vw;
+    margin-right: 2.4vw;
+    cursor: pointer;
+}
+
+a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: crimson;
+    text-decoration: underline;
+    text-decoration-color: black;
+    margin-top: -20px; 
+    z-index: 2;
+}
