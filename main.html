@@ -9,35 +9,28 @@
     </head>
 
     <body>
-        
+
+        <div style="display: grid; grid-template-columns: minmax(30%, auto) 1fr;">
+            
+            <img src="assets/tiger.png" style="object-fit: cover; width: auto; height: 100vh;">
+
+            <div style="display: grid;">
+                <div class="headline">THE</div>
     
-    <div class="grid">    
-        <div style="display: flex; flex-direction: column;">
-            <img class="tiger_img">
-            <a href="https://www.flickr.com/photos/tambako/">image credit: Tambako The Jaguar, flickr</a>
-        </div> 
-        
-        <div  style="margin-left: -12%;">
-            <div class="rubric">
-                THE
+                <div style="display: grid;  grid-template-columns: auto auto auto;">
+                    <form action="main.html">
+                        <input type="submit" value="HABITAT" />
+                    </form>
+                    <form action="appearance.html">
+                        <input type="submit" value="APPEARANCE" />
+                    </form>
+                    <form action="main.html">
+                        <input type="submit" value="BEHAVIOUR" />
+                    </form>
+                </div>
+    
+                <div class="headline">TIGER</div>
             </div>
-            <div style="display: flex; flex-direction: row;">
-                <form action="habitat.html">
-                    <input type="submit" value="HABITAT" />
-                </form>
-                <form action="main.html">
-                    <input type="submit" value="APPEARANCE" />
-                </form>
-                <form action="main.html">
-                    <input type="submit" value="BEHAVIOUR" />
-                </form>
-            </div>
-            <div class="rubric">
-                TIGER
-            </div>
-
         </div>
-
-    </div>
     </body>
 </html>
